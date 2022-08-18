@@ -8,7 +8,7 @@ type Donation {
   mobile: String
   team: String
   message: String
-  createdAt; DateTime
+  createdAt: DateTime
 }
 
 input CreateDonationInput {
@@ -18,7 +18,7 @@ input CreateDonationInput {
   mobile: String
   team: String
   message: String
-  createdAt; DateTime
+  createdAt: DateTime
 }
 
 type Query {
